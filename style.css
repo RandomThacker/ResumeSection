@@ -58,12 +58,22 @@ html,body{
 .text{
     color: white;
     height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     z-index: 50;
+    /* background-color: pink; */
+    padding-top: 40vh;
+  
     /* display: flex;
     align-items: center;
     justify-content: center; */
+}
+
+.text h1{
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 20px 30px;
+    cursor: pointer;
 }
 
 .overlay{
