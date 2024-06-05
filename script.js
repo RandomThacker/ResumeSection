@@ -1,9 +1,9 @@
 var tl = gsap.timeline({scrollTrigger:{
     trigger:".main",
     start:"30% 50%",
-    end:"70% 90%",
+    end:"70% 40%",
     scrub:true,
-    markers:false
+    markers:true
 }})
 
 
@@ -17,12 +17,13 @@ tl.to(".img3",{
     })
 
 tl.to(".resume",{
-    marginTop:"40vh",
+    marginTop:"105vh",
     scale:"0.8"
 },"a")
 
 tl.to(".text",{
-    marginTop:"-55vh"
+    marginTop:"-55vh",
+    paddingTop: "0vh"
 },"a")
 
 tl.to("img",{
